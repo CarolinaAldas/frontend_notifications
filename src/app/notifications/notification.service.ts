@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class NotificationService {
-  private apiUrl = 'https://backend-notifications-production.up.railway.app/'; // <-- URL del backend en Railway
+  private apiUrl = 'https://backend-notifications-production.up.railway.app/notifications'; // <-- URL del backend en Railway
 
   constructor(private http: HttpClient) {}
 
